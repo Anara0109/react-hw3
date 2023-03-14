@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(240, 255, 249);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 500px;
+    height: 50px;
+    border-collapse: collapse;
+    border: 2px solid rgb(88, 101, 219);;
+}
+
+td,
+tr {
+    border: 2px solid rgb(83, 114, 199);
+    width: 100px;
+    padding: 10px;
+}
+
+th {
+    border: 2px solid rgb(68, 98, 194);
+    width: 98px;
+    padding: 10px;
+}
+.block-shops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: rgb(10, 106, 170);
+    
+}
+.block-NewShop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 25px;
+    border: 2px solid rgb(42, 191, 211);
+    border-radius: 7px;
+    color: rgb(61, 164, 204);
+}
+.checkbox{
+    border: 2px solid rgb(0, 134, 40);
+    border-radius: 7px;
+}
+button{
+    width: 150px;
+    height: 25px;
+    border: 2px solid rgb(145, 7, 179);
+    background-color: rgb(0, 91, 134);
+    border-radius: 7px;
+    color: aliceblue;
+}
+label{
+    color: rgb(125, 134, 0);
+}
+h1{
+    color: rgb(134, 132, 0);
+    margin: 20px;
+}
